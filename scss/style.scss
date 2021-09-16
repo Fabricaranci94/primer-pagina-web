@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./mixins";
+@import "./globales";
+@import "productos";
+@import "contacto";
+@import "header";
+@import "main";
+@import "footer";
+
+// grid
+.container1 {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 3, 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+// estilo del body
+.body {
+  // background-image: url(imagenes\depositphotos_178688100-stock-photo-movie-tickets-clapperboard-pop-corn.jpg);
+  background-color: #eee ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}

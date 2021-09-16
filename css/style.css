@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bolder; }
+
+.header1 {
+  grid-column: span 8;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header1 .titulo {
+    display: flex;
+    justify-content: center; }
+  .header1 .header_titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder; }
+  .header1 .menubarra {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 20px; }
+  .header1 .header_link {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique; }
+
+.main1 {
+  grid-row: span 3;
+  grid-column: span 7;
+  margin-top: 5px; }
+  .main1 .containercarru {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .main1 .subtarjetas {
+    grid-column: span 8;
+    margin-top: 50px; }
+  .main1 .sub1 {
+    display: flex;
+    justify-content: center; }
+  .main1 .tarjetas {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 90px;
+    gap: 50px; }
+  .main1 .tarj1 {
+    border-radius: 10px;
+    transition: width 2s, height 2s; }
+  .main1 .tarj1:hover {
+    width: 450px;
+    height: 300px; }
+
+.main2 {
+  grid-row: span 3;
+  grid-column: span 8;
+  margin-top: 5px; }
+  .main2 .marvel {
+    display: flex;
+    justify-content: center; }
+  .main2 .titulomarvel {
+    font-size: 30px;
+    color: red; }
+  .main2 .submarvel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 30%; }
+  .main2 .contenedorimag {
+    display: inline-flex;
+    margin-top: 5%; }
+  .main2 .parrafomarvel {
+    display: flex;
+    justify-content: center;
+    text-align: right; }
+
+.footer {
+  grid-column: span 8;
+  background-color: #000; }
+  .footer .footer1 {
+    display: flex;
+    justify-content: space-evenly; }
+  .footer .iconos {
+    display: flex;
+    justify-content: flex-end; }
+  .footer .redsocial {
+    display: inline-flex;
+    justify-content: end;
+    gap: 30px; }
+
+.container1 {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 3, 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); }
+
+.body {
+  background-color: #eee;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }

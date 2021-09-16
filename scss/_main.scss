@@ -1,0 +1,82 @@
+// main
+
+.main1 {
+  grid-row: span 3;
+  grid-column: span 7;
+  margin-top: 5px;
+
+  // dando estilo al carrusel
+
+  .containercarru {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // estilo de titulos de las tarjetas
+  .subtarjetas {
+    grid-column: span 8;
+    margin-top: 50px;
+  }
+
+  .sub1 {
+    display: flex;
+    justify-content: center;
+  }
+  // estilo de las tarjetas
+  .tarjetas {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 90px;
+    gap: 50px;
+    // object-fit: cover;
+  }
+
+  .tarj1 {
+    border-radius: 10px;
+    transition: width 2s, height 2s;
+  }
+  .tarj1:hover {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+// main 2 pagina disney
+
+.main2 {
+  grid-row: span 3;
+  grid-column: span 8;
+  margin-top: 5px;
+  background-color: rgba(#285ff5);
+
+  .marvel {
+    display: flex;
+    justify-content: center;
+  }
+  .titulomarvel {
+    font-size: 30px;
+    color: red;
+  }
+
+  .submarvel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 30%;
+  }
+  .subtitulomarvel {
+  }
+
+  .contenedorimag {
+    display: inline-flex;
+    margin-top: 5%;
+  }
+  .parrafomarvel {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+  }
+}
