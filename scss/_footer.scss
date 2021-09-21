@@ -1,24 +1,21 @@
 // footer
 
-.footer{
-  grid-column: span 8;
+.footer {
+  grid-area: footer;
   background-color: #000;
 
-  .footer1{
+  .footer .footer1 {
     display: flex;
     justify-content: space-evenly;
-    
   }
   // iconos de redes sociales
-  .iconos{
+  .footer .iconos {
     display: flex;
     justify-content: flex-end;
   }
-  .redsocial{
+  .footer.redsocial {
     display: inline-flex;
     justify-content: end;
-    gap: 30px;
-    
+    gap: 1.875rem;
   }
-
 }
