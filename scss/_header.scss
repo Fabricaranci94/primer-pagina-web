@@ -1,45 +1,9 @@
-// header
-
-
+// // header
 
 .header1 {
-  grid-area:header;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  .header1 .titulo {
-    display: flex;
-    justify-content: center;
-    width: 68.75rem;
-    height: 9.375rem;
-
-  }
-  
-  
- .header1 .header_titulo{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 3.125rem;
-  font-style: oblique;
-  font-weight: bolder;
-  }
-
-
-  .header1 .menubarra {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 1.25rem;
-  }
-  
-  .header1 .header_link{
-    font-size: 20px;
-    font-weight: bolder;
-    color:black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: oblique;
-    
-  }
-  
+  grid-area: header;
 }
-
+// Flex nav-bar
+.container-fluid {
+  display: inline-flex;
+}

@@ -4,58 +4,136 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <title>Disney</title>
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+    crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="body" style="height: 100%; ">
+  <body class="body">
     <!-- barra de menu -->
     <div class="container1">
       <header class="header1">
-        <nav class="header_links">
-          <div class="titulo">
-            <h2>Disney</h2>
-           
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand" href="index.html">LaCartaCine<img src="https://img.icons8.com/cotton/48/000000/documentary.png"/></a>
+            <!-- menu responsive -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
-          <div class="menubarra">
-            <a class="header_link" href="index.html">Home</a>
-            <div class="dropdown">
-              <button class="btn  dropdown-toggle " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="header_link" href="#">Estrenos</a>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <button class="dropdown-item" type="button">Top 10 pelicuas</button>
-                <button class="dropdown-item" type="button">Top 10 series</button>
-                <button class="dropdown-item" type="button">Novedades</button>
-              </div>
-            </div>
-            <a class="header_link" href="contacto.html">Mejores trilogias</a>
-            <a class="header_link" href="contacto.html">Registrarme</a>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regristrarme.html">Registrate</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Extras
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="top10peliculas.html">Top 10 peliculas</a>
+                  <a class="dropdown-item" href="top10series.html">Top 10 series</a>
+                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                </div>
+              </li>
+            </ul>
           </div>
         </nav>
       </header>
-      <!-- cuerpo de la pagina -->
 
-      <main class="main2">
-        <div class="marvel">
-          <h2 class="titulomarvel">Mundo Marvel</h2>
-        </div>
-        
-        <div class="submarvel">
-          <h3 class="subtitulomarvel">Orden de las peliculas y series de Marvel</h3>
-        </div>
-      
-        <div class="contenedorimag">
-          <img src="imagenes/92cd1c50f0be75abe621dd02a027595b.jpg" alt="">
-            <p class="parrafomarvel" >¿Pensando en darte un buen atracón de Marvel? Desde luego, material no te va a faltar: el Universo Cinematográfico de Marvel (UCM) está compuesto de más de veinte películas y dos series (y subiendo), por lo que podemos empaparnos de superhéroes hasta quedar saciados.
-               Desde 'Capitán América: El primer vengador' hasta la reciente 'Spider-Man: Lejos de casa', ponemos un poco de orden en este extenso UCM, pasando por películas como 'Los Vengadores', 'Guardianes de la Galaxia' y 'Black Panther', e incorporando las series que se están estrenando en Disney+, 'Bruja Escarlata y Visión' y 'Falcon y el Soldado de Invierno', así como la próxima 'Viuda Negra', la película en solitario de Natasha Romanoff. Y ojo a lo que está por venir: 'Los Eternos' de Chloe Zhao, que podría abrir un nuevo camino en la franquicia, y nuevas series en 'streaming' como 'Loki' (con Tom Hiddleston), 'Hawkeye' (que devuelve al personaje de Jeremy Renner con un gran fichaje: Hailee Steinfeld como Kate Bishop), 'Ms. Marvel' (que conectará directamente con la próxima 'Capitana Marvel 2') y finalmente 'What if...?', una serie animada que imagina realidades paralelas, como que Peggy Carter es Capitana América. ¡No nos podemos aburrir!
-               Lo que está claro es que ha sido más de una década en la que hemos visto pasar tantos personajes y tantas tramas que no viene mal, de vez en cuando, hacer una revisión de todo.     </p>
-        </div>
-        
+      <!-- cuerpo de la pagina -->
+         <main class="main2">
+           <section class="disney">
+             <!-- titulo logo disney -->
+             <div class="logodisney">
+              <img src="https://img.icons8.com/nolan/256/disney-plus.png"/>
+             </div>
+             <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/cruella.jpg" alt="Cruella"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/Luca_poster.jpg" alt="luca"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/whatif.jpg" alt="What if"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/Star_Wars_The_Bad_Batch_Teaser_Poster.jpg" alt="star wars"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/visions--691x1024.jpg" alt="visions"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/Black_Widow_(film)_poster_019.jpg" alt="vuida negra"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/poster-loki.jpg" alt="Loki"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/primer-poster-e-imagenes-oficiales-de-WandaVision-2.jpg" alt="wandavision"></div>
+                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/monsterinc.jpg" alt="monsterinc"></div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+           </section>
+           <!-- titlulo logo marvel -->
+           <div class="titulomarvel">
+             <img src="imagenes/logo-Marvel-2-500x314.png" alt="">
+           </div>
+           <section class="marvel">
+             <h3 class="subtitulomarvel">Te dejamos la linea de tiempo de las peliculas de los heroes Marvel para que puedas mirarlas en orden. </h3>
+             <div class="lineadetiempo">
+               <img src="imagenes/cronoli.jpg" alt="">
+             </div>
+             <hr>
+             <div class="heroes">
+               <h2>Heroes</h2>
+               <div class="imgpersonajes">
+                 <a href="https://es.wikipedia.org/wiki/Hulk"><img class="personajes" src="imagenes/hulk.jpg" alt="Hulk"></a>
+                 <a href="https://es.wikipedia.org/wiki/Iron_Man"><img class="personajes" src="imagenes/ironman.jpg" alt="Iron Man"></a>
+                 <a href="https://es.wikipedia.org/wiki/Spider-Man"><img class="personajes" src="imagenes/spiderman.jpg" alt="El Hombre Araña"></a>
+                 <a href="https://es.wikipedia.org/wiki/Thor_(c%C3%B3mic)"><img class="personajes" src="imagenes/thor.jpg" alt="Thor"></a>
+                 <a href="https://es.wikipedia.org/wiki/Visi%C3%B3n_(personaje)"><img class="personajes" src="imagenes/vision.jpg" alt="Vision"></a>
+                 <a href="https://es.wikipedia.org/wiki/Viuda_Negra_(personaje)"><img class="personajes" src="imagenes/viudanegra.jpg" alt="Viuda Negra"></a>
+                 <a href="https://es.wikipedia.org/wiki/Capit%C3%A1n_Am%C3%A9rica"><img class="personajes" src="imagenes/capitan america.jpg" alt="Capitan America"></a>
+                 <a href="https://es.wikipedia.org/wiki/Ojo_de_Halc%C3%B3n"><img class="personajes" src="imagenes/clint.jpg" alt="Clint"></a>
+                 <a href="https://es.wikipedia.org/wiki/Doctor_Strange"><img class="personajes" src="imagenes/doctorstreng.jpg" alt="Doctor Streng"></a>
+               </div>
+               
+             </div>
+             
+           </section>
+           <section class="starwars">
+             
+
+           </section>
+         </main>
         
         
 
@@ -66,8 +144,8 @@
 
       <!-- pie de pagina -->
       <footer class="footer">
+        <div class="footer1">
         <h2><a href="index.html">LA CARTA CINE</a></h2>
-      <div class="footer1">
         <ul>
           <li><a href="disney.html">Disney+</a></li>
           <li><a href="#">Netflix</a></li>
@@ -96,6 +174,27 @@
       
         </footer>
     </div>
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         slidesPerGroup: 3,
+         loop: true,
+         loopFillGroupWithBlank: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -14,59 +14,29 @@
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.header1 .header1 .titulo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 68.75rem;
-  height: 9.375rem;
-}
-
-.header1 .header1 .header_titulo {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 3.125rem;
-  font-style: oblique;
-  font-weight: bolder;
-}
-
-.header1 .header1 .menubarra {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 4rem;
-  margin-top: 1.25rem;
-}
-
-.header1 .header1 .header_link {
-  font-size: 20px;
-  font-weight: bolder;
-  color: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: oblique;
+.container-fluid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .main1 {
+  background-color: #eee;
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
   margin-top: 0.3125rem;
+}
+
+.titulo-carrusel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main1 .containercarru {
@@ -79,11 +49,26 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 3rem;
+}
+
+.carousel {
+  width: 85.25rem;
 }
 
 .carousel-item img {
   width: 100%;
   height: 28.125rem;
+  border-radius: 0.625rem;
+}
+
+.estrenos {
+  margin-top: 2.25rem;
+}
+
+.card-body {
+  background-color: rgba(132, 135, 132, 0.659);
+  border-radius: 0.1875rem;
 }
 
 .main1 .subtarjetas {
@@ -111,20 +96,21 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 5.625rem;
+  margin-bottom: 1.25rem;
   gap: 3.125rem;
 }
 
 .main1 .tarj1 {
   border-radius: 0.625rem;
-  width: 25px;
-  height: 25px;
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  width: 18.5rem;
+  height: 13.5rem;
+  -webkit-transition: 0.9s ease all;
+  transition: 0.9s ease all;
 }
 
 .main1 .tarj1:hover {
-  height: 28.125rem;
-  width: 28.125rem;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .main2 {
@@ -134,7 +120,52 @@
   margin-top: 0.3125rem;
 }
 
-.main2 .main2 .marvel {
+.disney {
+  height: 70.25rem;
+  background-color: #051b4a;
+}
+
+.logodisney {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1.875rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 40rem;
+  padding-top: 1.25rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #051b4a;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide .swiper-disney {
+  display: block;
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.titulomarvel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,67 +174,93 @@
           justify-content: center;
 }
 
-.main2 .main2 .titulomarvel {
-  font-size: 1.875rem;
-  color: red;
+.marvel {
+  height: 140.25rem;
+  background-color: #ec1d24;
 }
 
-.main2 .main2 .submarvel {
+.lineadetiempo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin-top: 0.9375rem;
-  margin-left: 30%;
+  padding-top: 2.625rem;
 }
 
-.main2 .main2 .contenedorimag {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-top: 5%;
-}
-
-.main2 .main2 .parrafomarvel {
+.subtitulomarvel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: right;
+  padding-top: 0.9375rem;
+}
+
+.lineadetiempo img {
+  width: 90%;
+  height: 36.25rem;
+  border-radius: 0.9375rem;
+}
+
+.heroes h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imgpersonajes {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20rem;
+  gap: 3rem;
+}
+
+.personajes {
+  width: 20rem;
+  height: 28rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
 }
 
 .footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background-color: #000;
+  height: 2.5rem;
 }
 
-.footer .footer .footer1 {
+.footer .footer1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #2b2b2b;
 }
 
-.footer .footer .iconos {
+.footer .iconos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  background-color: #2b2b2b;
 }
 
-.footer .footer.redsocial {
+.footer .redsocial {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -216,12 +273,12 @@
 .container1 {
   display: -ms-grid;
   display: grid;
-  gap: 1rem;
+  gap: 0.625rem;
   -ms-grid-rows: 1fr, 1fr, 1fr;
       grid-template-rows: 1fr, 1fr, 1fr;
-  -ms-grid-columns: 100vw;
-      grid-template-columns: 100vw;
-      grid-template-areas: "header " "main" "footer ";
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+      grid-template-areas: "header" "main" "footer";
 }
 
 .body {
@@ -229,22 +286,603 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
   * {
     font-size: 8px;
-    overflow: hidden;
   }
   .container1 {
-    background-color: #c300ff;
-    width: 100vw;
+    background-color: #eee;
+    width: 100%;
+  }
+  .titulo-carrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main1 .containercarru {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 3rem;
+  }
+  .carousel {
+    width: 9.25rem;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 28.125rem;
+    border-radius: 0.625rem;
+  }
+  .tarjetas {
+    margin-top: 4.625rem;
+    gap: 3.125rem;
   }
   .tarj1 {
-    width: 5.5rem;
-    height: 3.5rem;
+    width: 3.5rem;
+    height: 2.5rem;
     border: solid gold;
+  }
+  .main2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: main;
+    margin-top: 0.3125rem;
+  }
+  .disney {
+    height: 80.25rem;
+  }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #051b4a;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .swiper-slide .swiper-disney {
+    display: block;
+    width: 50%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .titulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .marvel {
+    height: 165.25rem;
+    background-color: #ec1d24;
+  }
+  .lineadetiempo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 2.625rem;
+  }
+  .subtitulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 0.9375rem;
+    font-size: 2.2rem;
+  }
+  .lineadetiempo img {
+    width: 90%;
+    height: 52.25rem;
+    border-radius: 0.9375rem;
+  }
+  .heroes h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 4rem;
+  }
+  .imgpersonajes {
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20rem;
+    gap: 3rem;
+  }
+  .personajes {
+    width: 23rem;
+    height: 31rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 8px;
+  }
+  .container1 {
+    background-color: #eee;
+    width: 100%;
+  }
+  .titulo-carrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main1 .containercarru {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 3rem;
+  }
+  .carousel {
+    width: 85.25rem;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 28.125rem;
+    border-radius: 0.625rem;
+  }
+  .tarjetas {
+    margin-top: 4.625rem;
+    gap: 3.125rem;
+  }
+  .tarj1 {
+    width: 3.5rem;
+    height: 2.5rem;
+    border: solid gold;
+  }
+  .main2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: main;
+    margin-top: 0.3125rem;
+  }
+  .disney {
+    height: 77.25rem;
+  }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #051b4a;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .swiper-slide .swiper-disney {
+    display: block;
+    width: 50%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .titulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .marvel {
+    height: 170.25rem;
+    background-color: #ec1d24;
+  }
+  .lineadetiempo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 2.625rem;
+  }
+  .subtitulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 0.9375rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .lineadetiempo img {
+    width: 90%;
+    height: 40.25rem;
+    border-radius: 0.9375rem;
+  }
+  .heroes h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .imgpersonajes {
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20rem;
+    gap: 3rem;
+  }
+  .personajes {
+    width: 20rem;
+    height: 32rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  * {
+    font-size: 8px;
+  }
+  .container1 {
+    background-color: #eee;
+    width: 100vm;
+  }
+  .titulo-carrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main1 .containercarru {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 3rem;
+  }
+  .carousel {
+    width: 43.25rem;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 28.125rem;
+    border-radius: 0.625rem;
+  }
+  .tarjetas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 4.625rem;
+    gap: 3.125rem;
+  }
+  .tarj1 {
+    width: 3.5rem;
+    height: 2.5rem;
+    border: solid gold;
+  }
+  .main2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: main;
+    margin-top: 0.3125rem;
+  }
+  .disney {
+    height: 68.25rem;
+  }
+  .swiper {
+    width: 100%;
+    height: 25rem;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #051b4a;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .swiper-slide .swiper-disney {
+    display: block;
+    width: 79%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .titulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .titulomarvel img {
+    width: 20rem;
+  }
+  .marvel {
+    height: 220.25rem;
+    background-color: #ec1d24;
+  }
+  .lineadetiempo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 2.625rem;
+  }
+  .subtitulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 0.9375rem;
+  }
+  .lineadetiempo img {
+    width: 95%;
+    height: 44.25rem;
+    border-radius: 0.9375rem;
+  }
+  .heroes h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .imgpersonajes {
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 2.1rem;
+    padding-left: 1rem;
+  }
+  .personajes {
+    width: 20rem;
+    height: 28rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    font-size: 8px;
+  }
+  .container1 {
+    background-color: #eee;
+    width: 100vm;
+  }
+  .titulo-carrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main1 .containercarru {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 3rem;
+  }
+  .carousel {
+    width: 38.25rem;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 28.125rem;
+    border-radius: 0.625rem;
+  }
+  .tarjetas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 4.625rem;
+    gap: 3.125rem;
+  }
+  .tarj1 {
+    width: 3.5rem;
+    height: 2.5rem;
+    border: solid gold;
+  }
+  .main2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: main;
+    margin-top: 0.3125rem;
+  }
+  .disney {
+    height: 60.25rem;
+  }
+  .swiper {
+    width: 100%;
+    height: 23rem;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #051b4a;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .swiper-slide .swiper-disney {
+    display: block;
+    width: 85%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .titulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .titulomarvel img {
+    width: 20rem;
+  }
+  .marvel {
+    height: 185.25rem;
+    background-color: #ec1d24;
+  }
+  .lineadetiempo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 2.625rem;
+  }
+  .subtitulomarvel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 0.9375rem;
+  }
+  .lineadetiempo img {
+    width: 95%;
+    height: 44.25rem;
+    border-radius: 0.9375rem;
+  }
+  .heroes h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .imgpersonajes {
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 5.1rem;
+    padding-left: 1rem;
+  }
+  .personajes {
+    width: 14rem;
+    height: 22rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
