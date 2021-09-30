@@ -5,26 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Disney</title>
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-    crossorigin="anonymous"
+    <meta
+      nombre=" cine "
+      content=" Aca vas a poder informarte de lo nuevo que se viene y buscar que mirar  "
     />
+
+    <meta
+      name=" palabras clave "
+      content=" CINE, PELICULAS, SERIES, NETFLIX, PRIMEVIDEO, HBOMAX, DISNEY+, NOTICIAS "
+    />
+    <!-- link swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- link bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
+  <!-- body -->
   <body class="body">
     <!-- barra de menu -->
     <div class="container1">
+      <!-- header -->
       <header class="header1">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <!-- logo -->
-            <a class="navbar-brand" href="index.html">LaCartaCine<img src="https://img.icons8.com/cotton/48/000000/documentary.png"/></a>
+            <a class="navbar-brand" href="index.html"
+              >LaCartaCine<img
+                src="https://img.icons8.com/cotton/48/000000/documentary.png"
+            /></a>
             <!-- menu responsive -->
             <button
               class="navbar-toggler"
@@ -49,9 +66,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="novedades.html">Novedades</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="regristrarme.html">Registrate</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -68,10 +82,14 @@
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="top10peliculas.html">Top 10 peliculas</a>
-                  <a class="dropdown-item" href="top10series.html">Top 10 series</a>
-                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                  <a class="dropdown-item" href="disney.html">Disney</a>
+                  <a class="dropdown-item" href="hbomax.html">HboMax</a>
+                  <a class="dropdown-item" href="netflix.html">Netflix</a>
+                  <a class="dropdown-item" href="prime.html">PrimeVideo</a>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regristrarme.html">Registrate</a>
               </li>
             </ul>
           </div>
@@ -79,122 +97,297 @@
       </header>
 
       <!-- cuerpo de la pagina -->
-         <main class="main2">
-           <section class="disney">
-             <!-- titulo logo disney -->
-             <div class="logodisney">
-              <img src="https://img.icons8.com/nolan/256/disney-plus.png"/>
-             </div>
-             <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/cruella.jpg" alt="Cruella"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/Luca_poster.jpg" alt="luca"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/whatif.jpg" alt="What if"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/Star_Wars_The_Bad_Batch_Teaser_Poster.jpg" alt="star wars"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/visions--691x1024.jpg" alt="visions"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/Black_Widow_(film)_poster_019.jpg" alt="vuida negra"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/poster-loki.jpg" alt="Loki"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/primer-poster-e-imagenes-oficiales-de-WandaVision-2.jpg" alt="wandavision"></div>
-                <div class="swiper-slide"><img class="swiper-disney" src="imagenes/monsterinc.jpg" alt="monsterinc"></div>
+      <main class="main2">
+        <!-- seccion disney -->
+        <section class="disney">
+          <!-- titulo logo disney -->
+          <div class="logodisney">
+            <img src="https://img.icons8.com/nolan/256/disney-plus.png" />
+          </div>
+          <!--  swiper  -->
+          <div class="swiper mySwiper">
+            <!-- carrusel de imagenes disney -->
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/cruella.jpg"
+                  alt="Cruella"
+                />
               </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/Luca_poster.jpg"
+                  alt="luca"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/whatif.jpg"
+                  alt="What if"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/Star_Wars_The_Bad_Batch_Teaser_Poster.jpg"
+                  alt="star wars"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/visions--691x1024.jpg"
+                  alt="visions"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/Black_Widow_(film)_poster_019.jpg"
+                  alt="vuida negra"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/poster-loki.jpg"
+                  alt="Loki"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/primer-poster-e-imagenes-oficiales-de-WandaVision-2.jpg"
+                  alt="wandavision"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-disney"
+                  src="imagenes/monsterinc.jpg"
+                  alt="monsterinc"
+                />
+              </div>
             </div>
-           </section>
-           <!-- titlulo logo marvel -->
-           <div class="titulomarvel">
-             <img src="imagenes/logo-Marvel-2-500x314.png" alt="">
-           </div>
-           <section class="marvel">
-             <h3 class="subtitulomarvel">Te dejamos la linea de tiempo de las peliculas de los heroes Marvel para que puedas mirarlas en orden. </h3>
-             <div class="lineadetiempo">
-               <img src="imagenes/cronoli.jpg" alt="">
-             </div>
-             <hr>
-             <div class="heroes">
-               <h2>Heroes</h2>
-               <div class="imgpersonajes">
-                 <a href="https://es.wikipedia.org/wiki/Hulk"><img class="personajes" src="imagenes/hulk.jpg" alt="Hulk"></a>
-                 <a href="https://es.wikipedia.org/wiki/Iron_Man"><img class="personajes" src="imagenes/ironman.jpg" alt="Iron Man"></a>
-                 <a href="https://es.wikipedia.org/wiki/Spider-Man"><img class="personajes" src="imagenes/spiderman.jpg" alt="El Hombre Araña"></a>
-                 <a href="https://es.wikipedia.org/wiki/Thor_(c%C3%B3mic)"><img class="personajes" src="imagenes/thor.jpg" alt="Thor"></a>
-                 <a href="https://es.wikipedia.org/wiki/Visi%C3%B3n_(personaje)"><img class="personajes" src="imagenes/vision.jpg" alt="Vision"></a>
-                 <a href="https://es.wikipedia.org/wiki/Viuda_Negra_(personaje)"><img class="personajes" src="imagenes/viudanegra.jpg" alt="Viuda Negra"></a>
-                 <a href="https://es.wikipedia.org/wiki/Capit%C3%A1n_Am%C3%A9rica"><img class="personajes" src="imagenes/capitan america.jpg" alt="Capitan America"></a>
-                 <a href="https://es.wikipedia.org/wiki/Ojo_de_Halc%C3%B3n"><img class="personajes" src="imagenes/clint.jpg" alt="Clint"></a>
-                 <a href="https://es.wikipedia.org/wiki/Doctor_Strange"><img class="personajes" src="imagenes/doctorstreng.jpg" alt="Doctor Streng"></a>
-               </div>
-               
-             </div>
-             
-           </section>
-           <section class="starwars">
-             
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+        <!-- titlulo logo marvel -->
+        <div class="titulomarvel">
+          <img src="imagenes/logo-Marvel-2-500x314.png" alt="" />
+        </div>
+        <!-- seccionn marvel -->
+        <section class="marvel">
+          <!-- subtitulo -->
+          <h3 class="subtitulomarvel">
+            Te dejamos la linea de tiempo de las peliculas de los heroes Marvel
+            para que puedas mirarlas en orden.
+          </h3>
+          <div class="lineadetiempo">
+            <!-- imagen linea de tiempo peliculas marvel -->
+            <img src="imagenes/cronoli.jpg" alt="" />
+          </div>
+          <hr />
+          <!-- heroes de marvel -->
+          <div class="heroes">
+            <h2>Heroes</h2>
+            <!-- tarjetas con imagenes y descripcion de los personajes de marvel -->
+            <div class="imgpersonajes">
+              <a href="https://es.wikipedia.org/wiki/Hulk"
+                ><img class="personajes" src="imagenes/hulk.jpg" alt="Hulk"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Iron_Man"
+                ><img
+                  class="personajes"
+                  src="imagenes/ironman.jpg"
+                  alt="Iron Man"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Spider-Man"
+                ><img
+                  class="personajes"
+                  src="imagenes/spiderman.jpg"
+                  alt="El Hombre Araña"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Thor_(c%C3%B3mic)"
+                ><img class="personajes" src="imagenes/thor.jpg" alt="Thor"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Visi%C3%B3n_(personaje)"
+                ><img class="personajes" src="imagenes/vision.jpg" alt="Vision"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Viuda_Negra_(personaje)"
+                ><img
+                  class="personajes"
+                  src="imagenes/viudanegra.jpg"
+                  alt="Viuda Negra"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Capit%C3%A1n_Am%C3%A9rica"
+                ><img
+                  class="personajes"
+                  src="imagenes/capitan america.jpg"
+                  alt="Capitan America"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Ojo_de_Halc%C3%B3n"
+                ><img class="personajes" src="imagenes/clint.jpg" alt="Clint"
+              /></a>
+              <a href="https://es.wikipedia.org/wiki/Doctor_Strange"
+                ><img
+                  class="personajes"
+                  src="imagenes/doctorstreng.jpg"
+                  alt="Doctor Streng"
+              /></a>
+            </div>
+          </div>
+        </section>
 
-           </section>
-         </main>
-        
-        
-
-        
-
-          
+        <!-- seccion star wars -->
+        <section class="starwars">
+          <div class="logo-star">
+            <!-- logo de star wars -->
+            <img src="https://img.icons8.com/color/240/000000/star-wars.png" />
+          </div>
+          <div class="substar">
+            <!-- subtitulo -->
+            <h2>Orden cronologico de la saga Star Wars</h2>
+          </div>
+          <!-- imagen orden cronologico de las peliculas -->
+          <div class="orden-peliculas">
+            <img
+              src="imagenes/star_wars_canon_timeline_by_enkillepanatet_ddf1oaj-fullview.jpg.crdownload"
+              alt=""
+            />
+          </div>
+          <!-- sinopsis -->
+          <div class="sinopsis">
+            <div class="titular">
+              <h3>Sinopsis</h3>
+            </div>
+            <br />
+            <!-- parrafo con la trama -->
+            <p>
+              La trama descrita en las nueve películas que componen la serie
+              principal de Star Wars relata las vivencias de la familia
+              Skywalker,16​ «hace mucho tiempo en una galaxia muy muy
+              lejana»,17​ cuyos integrantes son capaces de percibir y utilizar
+              «La Fuerza», lo cual les permite desarrollar habilidades como la
+              telequinesis, la clarividencia y el control mental, entre otras.
+              Un par de sables de luz cruzados entre sí; un sable de luz es el
+              arma principal utilizada por los Jedi y sus enemigos, los Sith, y
+              consiste en una empuñadura de metal pulido que proyecta una hoja
+              de energía de aproximadamente un metro de longitud. En la
+              «trilogía de precuelas» se describe el entrenamiento del joven
+              Anakin Skywalker, bajo la tutela del maestro Jedi Obi-Wan Kenobi,
+              durante una época de inestabilidad política derivada de una
+              disputa entre la República Galáctica y la Federación de Comercio.
+              El ataque por parte de un ejército de droides motiva al Senado
+              Galáctico a conceder poderes extraordinarios al canciller
+              Palpatine, que mantiene en secreto su identidad como el Sith Darth
+              Sidious con el objetivo de incitar las Guerras Clon, derrocar el
+              sistema republicano y fundar el Imperio Galáctico bajo su mando.
+              Sus planes se ven facilitados cuando descubre que Anakin
+              manifiesta debilidad por el «lado oscuro de la Fuerza», debido a
+              sus sentimientos de ira, miedo y odio, reforzados por el asesinato
+              de su madre, la desconfianza de la orden Jedi en sus capacidades y
+              las visiones de su esposa Padmé muriendo durante el parto.
+              Finalmente, Anakin se convierte en el aprendiz de Sidious, bajo el
+              nombre de Darth Vader, y le ayuda a poner en marcha la Orden 66,
+              una directriz que conduce al exterminio de los Jedi. Tras un
+              enfrentamiento con Obi-Wan en el que Anakin resulta severamente
+              herido, este último adopta un traje robótico negro gracias al cual
+              puede mantenerse con vida. La «trilogía original» parte del exilio
+              de algunos supervivientes del exterminio Jedi y la formación de un
+              grupo de rebeldes que buscan acabar con el dominio del imperio, a
+              la vez que ven amenazados por la construcción de un arma imperial
+              masiva conocida como «Estrella de la Muerte», que posee la
+              capacidad de destruir planetas en poco tiempo. Los gemelos Luke y
+              Leia, que pasaron su infancia en distintos lugares de la galaxia
+              tras la muerte de Padmé, desconocen su parentesco entre sí y con
+              Vader hasta que coinciden en la rebelión, cuando ella consigue los
+              planos robados de la Estrella de la Muerte y los deposita en el
+              interior del droide R2-D2, con la esperanza de que ayuden a
+              identificar la vulnerabilidad del arma imperial. Con la ayuda de
+              Han Solo, Chewbacca, R2-D2 y C-3PO, los Skywalker consiguen
+              destruir la Estrella de la Muerte. Tras ser entrenado por el Jedi
+              Yoda, y asistido por el mismo equipo al que se integra Lando
+              Calrissian, Luke se enfrenta sin éxito a Vader y este le revela
+              que es su padre. Finalmente, en otro encuentro con Sidious y
+              Vader, este último rescata a Luke y sacrifica su vida para acabar
+              con Sidious. La «trilogía de secuelas» lidia con los
+              acontecimientos derivados del establecimiento de la Primera Orden,
+              una organización que comparte ciertos rasgos de la ideología
+              imperial y que es encabezada por el Líder Supremo Snoke y Kylo Ren
+              —hijo de Solo y Leia—, y en la que se ven involucrados nuevos
+              personajes como Rey, Finn y Poe Dameron, quienes forman parte de
+              la denominada resistencia
+            </p>
+          </div>
+        </section>
       </main>
 
       <!-- pie de pagina -->
       <footer class="footer">
         <div class="footer1">
-        <h2><a href="index.html">LA CARTA CINE</a></h2>
-        <ul>
-          <li><a href="disney.html">Disney+</a></li>
-          <li><a href="#">Netflix</a></li>
-          <li><a href="#">HBOmax</a></li>
-          <li><a href="#">PrimeVideo</a></li>
-        </ul>
-        
-        <ul>
-          <li><a href="#">Top10peliculas</a></li>
-          <li><a href="#">Top10series</a></li>
-          <li><a href="#">Novedades</a></li>
-        </ul>
-        
-        
-        <ul>
-          <li><a href="#">Mejores trilogias</a></li>
-          <li><a href="#">Registrarte</a></li>
-        </ul>
-      </div>
-      <div class="iconos">
-        <ul class="iconos1">
-          <li class="redsocial"><a href="#"><img src="imagenes/facebook.png" width="30" height="30" alt="facebook"></a></li>
-          <li class="redsocial"><a href="#"><img src="imagenes/instagram.png" width="30" height="30" alt="instagram"></a></li>
-        </ul>
-      </div>
-      
-        </footer>
+          <!-- logo del footer -->
+          <h2><a href="index.html">LA CARTA CINE</a></h2>
+          <!-- plataformas -->
+          <ul>
+            <li><a href="disney.html">Disney+</a></li>
+            <li><a href="netflix.html">Netflix</a></li>
+            <li><a href="hbomax.html">HBOmax</a></li>
+            <li><a href="prime.html">PrimeVideo</a></li>
+          </ul>
+          <!-- novedades -->
+          <ul>
+            <li><a href="novedades.html">Novedades</a></li>
+          </ul>
+          <!--registrarse -->
+          <ul>
+            <li><a href="regristrarme.html">Registrarte</a></li>
+          </ul>
+        </div>
+        <!-- redes sociales -->
+        <div class="iconos">
+          <ul class="iconos1">
+            <li class="redsocial">
+              <a href="#"
+                ><img src="https://img.icons8.com/color/48/000000/facebook.png"
+              /></a>
+            </li>
+            <li class="redsocial">
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
-     <!-- Swiper JS -->
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-     <!-- Initialize Swiper -->
-     <script>
-       var swiper = new Swiper(".mySwiper", {
-         slidesPerView: 3,
-         spaceBetween: 30,
-         slidesPerGroup: 3,
-         loop: true,
-         loopFillGroupWithBlank: true,
-         pagination: {
-           el: ".swiper-pagination",
-           clickable: true,
-         },
-         navigation: {
-           nextEl: ".swiper-button-next",
-           prevEl: ".swiper-button-prev",
-         },
-       });
-     </script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

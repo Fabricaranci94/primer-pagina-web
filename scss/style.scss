@@ -1,8 +1,8 @@
-@import "./mixins";
 @import "./globales";
-@import "top10peliculas";
-@import "top10series";
 @import "registrarme";
+@import "netflix";
+@import "prime";
+@import "hbomax";
 @import "header";
 @import "main";
 @import "footer";
@@ -17,6 +17,7 @@
     "header"
     "main"
     "footer";
+  overflow: hidden;
 }
 // estilo del body
 .body {
@@ -28,7 +29,7 @@
 }
 
 // medidas escritorio
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
   * {
     font-size: 8px;
     // overflow: hidden;
@@ -51,7 +52,7 @@
     margin-top: 3rem;
   }
   .carousel {
-    width: 9.25rem;
+    width: 85.25rem;
   }
 
   .carousel-item img {
@@ -164,6 +165,57 @@
     height: 31rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
+  }
+
+  // seccion star wars
+  .starwras {
+    height: 90.375rem;
+  }
+
+  .logo-star {
+    display: flex;
+    justify-content: center;
+  }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .substar h2 {
+    font-size: 4.875rem;
+  }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center;
+  }
+  .orden-peliculas img {
+    width: 95%;
+    height: 45.75rem;
+    border-radius: 0.5rem;
+  }
+
+  .sinopsis {
+    margin: 8.125rem;
+  }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem;
+  }
+  .titular h3 {
+    font-size: 4rem;
+  }
+
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 4.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.2rem;
+    font-weight: bolder;
   }
 }
 
@@ -305,10 +357,55 @@
     margin-top: 1rem;
     border-radius: 0.5rem;
   }
+
+  // seccion star wars
+  .starwras {
+    height: 90.375rem;
+  }
+
+  .logo-star {
+    display: flex;
+    justify-content: center;
+  }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center;
+  }
+  .orden-peliculas img {
+    width: 100%;
+    height: 38.75rem;
+    border-radius: 0.5rem;
+  }
+
+  .sinopsis {
+    margin: 8.125rem;
+  }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem;
+  }
+
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.2rem;
+    font-weight: bolder;
+  }
 }
 
 // diseño responnsive -medidas celulares
-@media (max-width: 375px) {
+@media (max-width: 650px) {
   * {
     font-size: 8px;
     // overflow: hidden;
@@ -445,6 +542,51 @@
     margin-top: 1rem;
     border-radius: 0.5rem;
   }
+
+  // seccion star wars
+  .starwras {
+    height: 90.375rem;
+  }
+
+  .logo-star {
+    display: flex;
+    justify-content: center;
+  }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center;
+  }
+  .orden-peliculas img {
+    width: 100%;
+    height: 25.75rem;
+    border-radius: 0.5rem;
+  }
+
+  .sinopsis {
+    margin: 3.125rem;
+  }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem;
+  }
+
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.9rem;
+    font-weight: bolder;
+  }
 }
 
 // diseño responsive - medidas celulares
@@ -579,5 +721,50 @@
     height: 22rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
+  }
+
+  // seccion star wars
+  .starwras {
+    height: 90.375rem;
+  }
+
+  .logo-star {
+    display: flex;
+    justify-content: center;
+  }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center;
+  }
+  .orden-peliculas img {
+    width: 100%;
+    height: 25.75rem;
+    border-radius: 0.5rem;
+  }
+
+  .sinopsis {
+    margin: 3.125rem;
+  }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.875rem;
+  }
+
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.9rem;
+    font-weight: bolder;
   }
 }

@@ -1,0 +1,264 @@
+// main 4 - pagina hbo
+.main5 {
+  grid-area: main;
+  margin-top: 0.3125rem;
+}
+// estilo del carrusel
+.hbo {
+  height: 70.25rem;
+  background-color: #b535f6;
+  // margin-bottom: 3.125rem;
+}
+// logo de hbo
+.logohbo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.875rem;
+}
+
+.swiper {
+  width: 90%;
+  height: 40rem;
+  padding-top: 1.25rem;
+}
+.main5 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #b535f6;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide .swiper-hbo {
+  display: block;
+  width: 85%;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+// seccion de netflix top5
+
+//  5 mejores series
+// color de la seccion
+.top6 {
+  background-color: rgb(17, 15, 15);
+  height: 75rem;
+}
+// estilo del subtitulo
+.top6 h2 {
+  display: flex;
+  justify-content: center;
+  color: #b535f6;
+  padding-top: 2rem;
+}
+// descripcion de imagenes
+.descripcion p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #eee;
+}
+
+.hbomax {
+  display: flex;
+  justify-content: center;
+}
+// imagenes
+.hbomax img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40.25rem;
+  border-radius: 1rem;
+}
+
+// responsive
+
+@media (max-width: 400px) {
+  // main 3 - pagina netflix
+  .main5 {
+    grid-area: main;
+    margin-top: 0.3125rem;
+  }
+  // estilo del carrusel
+  .hbo {
+    height: 70.25rem;
+    background-color: #b535f6;
+    // margin-bottom: 3.125rem;
+  }
+  // logo de netflix
+  .logohbo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem;
+  }
+  .main5 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #b535f6;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide .swiper-hbo {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  // seccion de hbomax top5
+
+  //  5 mejores series
+  // color de la seccion
+  .top6 {
+    background-color: rgb(17, 15, 15);
+    height: 80rem;
+  }
+  // estilo del subtitulo
+  .top6 h2 {
+    display: flex;
+    justify-content: center;
+    color: #b535f6;
+    padding-top: 2rem;
+  }
+  // descripcion de imagenes
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee;
+  }
+
+  .hbomax {
+    display: flex;
+    justify-content: center;
+  }
+  // imagenes
+  .hbomax img {
+    width: 44rem;
+    height: 33.25rem;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  // main 3 - pagina hbomax
+  .main5 {
+    grid-area: main;
+    margin-top: 0.3125rem;
+  }
+  // estilo del carrusel
+  .hbo {
+    height: 75.25rem;
+    background-color: #b535f6;
+    // margin-bottom: 3.125rem;
+  }
+  // logo de netflix
+  .logohbo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem;
+  }
+  .main5 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #b535f6;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide .swiper-hbo {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  // seccion de netflix top5
+
+  //  5 mejores series
+  // color de la seccion
+  .top6 {
+    background-color: rgb(17, 15, 15);
+    height: 90rem;
+  }
+  // estilo del subtitulo
+  .top6 h2 {
+    display: flex;
+    justify-content: center;
+    color: #b535f6;
+    padding-top: 2rem;
+  }
+  // descripcion de imagenes
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee;
+  }
+
+  .hbomax {
+    display: flex;
+    justify-content: center;
+  }
+  // imagenes
+  .hbomax img {
+    // width: 54.5rem;
+    // height: 40.25rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 44.25rem;
+    border-radius: 0.9375rem;
+    padding: 5rem;
+  }
+}

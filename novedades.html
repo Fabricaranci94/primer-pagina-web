@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LaCartaCine</title>
+    <title>novedades</title>
+    <meta
+      nombre=" cine "
+      content=" Aca vas a poder informarte de lo nuevo que se viene y buscar que mirar  "
+    />
+
+    <meta
+      name=" palabras clave "
+      content=" CINE, PELICULAS, SERIES, NETFLIX, PRIMEVIDEO, HBOMAX, DISNEY+, NOTICIAS "
+    />
     <!-- enlace css de bootstrap -->
     <link
       rel="stylesheet"
@@ -12,6 +21,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <!-- cuerpo del sitio -->
@@ -22,7 +32,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <!-- logo -->
-            <a class="navbar-brand" href="index.html">LaCartaCine<img src="https://img.icons8.com/cotton/48/000000/documentary.png"/></a>
+            <a class="navbar-brand" href="index.html"
+              >LaCartaCine<img
+                src="https://img.icons8.com/cotton/48/000000/documentary.png"
+            /></a>
             <!-- menu responsive -->
             <button
               class="navbar-toggler"
@@ -47,9 +60,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="novedades.html">Novedades</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="regristrarme.html">Registrate</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -66,19 +76,163 @@
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="top10peliculas.html">Top 10 peliculas</a>
-                  <a class="dropdown-item" href="top10series.html">Top 10 series</a>
-                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                  <a class="dropdown-item" href="disney.html">Disney</a>
+                  <a class="dropdown-item" href="hbomax.html">HboMax</a>
+                  <a class="dropdown-item" href="netflix.html">Netflix</a>
+                  <a class="dropdown-item" href="prime.html">PrimeVideo</a>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regristrarme.html">Registrate</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
 
-      
-      <main>
-
+      <!-- main de novedades -->
+      <main class="novedad">
+        <!-- seccion noticias -->
+        <section class="noticias">
+          <div class="card-columns">
+            <!--  tarjeta pelicula dune con bootstrap -->
+            <div class="card">
+              <a href="https://www.youtube.com/watch?v=1looWByWgW0"
+                ><img
+                  class="card-img-top"
+                  src="imagenes/dune-movie-official-poste.webp"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">DUNE</h5>
+                <p class="card-text">
+                  Nueva adaptación del clásico de la ciencia-ficción de Frank
+                  Herbert que nos sitúa en el árido planeta Arrakis, el único
+                  lugar donde se encuentra 'la especia', la sustancia más
+                  codiciada y valiosa del universo. Cuando la familia Atreides
+                  llegue a este peligroso planeta para administrar la extracción
+                  de la especia, estará en el punto de mira de fuerzas malvadas
+                  cuyo plan será eliminarles.
+                </p>
+              </div>
+            </div>
+            <!-- tarjeta noticias thor con bootstrap -->
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Thor 2 podría tener una versión del director</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Someone famous in
+                    <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <!-- tarjeta noticias serie luis miguel con bootstrap -->
+            <div class="card">
+              <a href="https://www.youtube.com/watch?v=7Oj2SNULn8c">
+                <img
+                  class="card-img-top"
+                  src="imagenes/Luis-Miguel-la-serie1.jpg"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">LUIS MIGUEL / LA SERIE</h5>
+                <p class="card-text">
+                  Mira el trailer final de la serie de luis miguel.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">lacartacine</small>
+                </p>
+              </div>
+            </div>
+            <!-- tarjeta noticia henry cavill con bootstrap -->
+            <div class="card bg-primary text-white text-center p-3">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Henry Cavill es el número 1 para interpretar al nuevo James
+                  Bond
+                </p>
+              </blockquote>
+            </div>
+            <!-- tarjeta noticia tom hardy con bootstarap -->
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Tom Hardy revela cómo superó las malas críticas
+                </h5>
+                <p class="card-text">
+                  «Creo que con cualquier cosa, quieres hacer algo bien que te
+                  importe. Y obviamente, no se reunió… No se llevó el agua con
+                  los críticos. (Risas) Literalmente nos criticaron. Pero el
+                  público acudió en masa, que era lo más encantador de todo
+                  esto. Fue como ver como un desvalido sea levantado y
+                  presentado y disfrutado y saboreado por lo que era. Hablamos
+                  directamente por teléfono con Tom Rothman de Sony y le
+                  dijimos: Mira, ¿podemos poner un tono para hacer la segunda?
+                  Porque tengo muchas ganas de tomar lo que aprendimos de la
+                  primera y seguir adelante y comenzar a escribir la segunda.
+                  Para volver al suelo y ver si podemos seguir adelante».
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <!-- tarjeta noticia serie bobba fett con bootstrap -->
+            <div class="card">
+              <a href="https://www.youtube.com/watch?v=H6ntKAoIsLE">
+                <img class="card-img" src="imagenes/bobba.jpg" alt="Card image"
+              /></a>
+            </div>
+            <div class="card p-3 text-right">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Disney+ aprovechó el final de la segunda temporada de 'The
+                  Mandalorian', serie que todavía tardará en estrenar nuevos
+                  episodios, para anunciar que en diciembre de 2021 veríamos su
+                  spin-off 'The Book of Boba Fett'. No habíamos vuelto a saber
+                  mucho de ella desde entonces, pero ahora ha aparecido un
+                  primer cartel oficial de la serie que desvela su fecha de
+                  estreno exacta: el 29 de diciembre.
+                </p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Someone famous in
+                    <cite title="Source Title">lacartacine</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <!-- tarjeta noticia vengadores con bootstrap  -->
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Filtran quien será el nuevo líder de los Vengadores en Marvel
+                  Studios
+                </h5>
+                <p class="card-text">
+                  Por ahora, sabemos que personajes como Capitana Marvel, Doctor
+                  Strange, Spider-Man y Los Cuatro Fantásticos serán muy
+                  importantes en el futuro próximo. Pero será Sam Wilson
+                  (Anthony Mackie) que ha pasado de ser Falcon al nuevo Capitán
+                  América, el que liderará a partir de ahora a los Vengadores.
+                  Esto podrá verse desde Black Panther: Wakanda Forever (2022),
+                  ya que se rumorea que aparecerá en la esperada secuela. La
+                  película Capitán América 4 ya se ha confirmado, aunque no
+                  tiene fecha de estreno por ahora. Será precisamente en esta
+                  entrega de Marvel Studios cuando se confirme que Sam Wilson se
+                  pondrá al frente de los Vengadores y la trama avanzará lo que
+                  podremos ver cuando se reúnan de nuevo los héroes más
+                  poderosos de la Tierra.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <!-- pie de pagina -->
@@ -89,20 +243,17 @@
           <!-- plataformas -->
           <ul>
             <li><a href="disney.html">Disney+</a></li>
-            <li><a href="#">Netflix</a></li>
-            <li><a href="#">HBOmax</a></li>
-            <li><a href="#">PrimeVideo</a></li>
+            <li><a href="netflix.html">Netflix</a></li>
+            <li><a href="hbomax.html">HBOmax</a></li>
+            <li><a href="prime.html">PrimeVideo</a></li>
           </ul>
-          <!-- top 10 y novedades -->
+          <!--  novedades -->
           <ul>
-            <li><a href="#">Top10peliculas</a></li>
-            <li><a href="#">Top10series</a></li>
-            <li><a href="#">Novedades</a></li>
+            <li><a href="novedades.html">Novedades</a></li>
           </ul>
-          <!-- mejores trilogias y registrarse -->
+          <!-- registrarse -->
           <ul>
-            <li><a href="#">Mejores trilogias</a></li>
-            <li><a href="#">Registrarte</a></li>
+            <li><a href="regristrarme.html">Registrarte</a></li>
           </ul>
         </div>
         <!-- redes sociales -->
@@ -110,11 +261,14 @@
           <ul class="iconos1">
             <li class="redsocial">
               <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                ><img src="https://img.icons8.com/color/48/000000/facebook.png"
+              /></a>
             </li>
             <li class="redsocial">
               <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"/></a>
+                ><img
+                  src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
+              /></a>
             </li>
           </ul>
         </div>

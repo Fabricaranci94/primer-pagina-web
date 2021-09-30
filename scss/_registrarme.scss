@@ -1,0 +1,678 @@
+// main de registro
+.main4 {
+  grid-area: main;
+}
+// seccion de registro
+.registro {
+  background-color: rgba(49, 109, 111, 0.741);
+  height: 85rem;
+}
+// titulo
+.registro h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.25rem;
+}
+// subtitulo
+.registro h5 {
+  display: flex;
+  justify-content: center;
+}
+// formulario
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+// estilos del formulario
+.formulario label {
+  font-size: 1.5rem;
+}
+.formulario p {
+  font-size: 1.5rem;
+}
+// ingrese nombre
+.nombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s;
+}
+
+.nombre:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem;
+}
+
+// ingrese apellido
+.apellido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s;
+}
+
+.apellido:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem;
+}
+
+// ingrese mail
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s;
+}
+
+.mail:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem;
+}
+
+// ingrese sexo
+.sexo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.sexo:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem;
+}
+
+// boton enviar
+.enviar {
+  display: inline-block;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.enviar:hover {
+  background-color: rgba(25, 56, 179, 0.816);
+}
+
+.tilde {
+  cursor: pointer;
+}
+
+// boton restablecer
+.restablecer {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.restablecer:hover {
+  background-color: rgba(25, 56, 179, 0.816);
+}
+
+// responsive
+@media (max-width: 1200px) {
+  // seccion registro
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 70rem;
+  }
+
+  // titulo
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem;
+  }
+
+  // subtitulo
+  .registro h5 {
+    display: flex;
+    justify-content: center;
+  }
+
+  // estilo del formulario
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+  }
+
+
+  // ingrese nombre
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s;
+  }
+
+  .nombre:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // ingrese apellido 
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s;
+  }
+
+  .apellido:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // ingrese mail
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s;
+  }
+
+  .mail:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem;
+  }
+
+  // ingrese sexo
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .sexo:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // boton envuiar
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    // align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+
+  .tilde {
+    cursor: pointer;
+  }
+
+  // boton restablecer
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+}
+
+
+
+// responsive
+@media (max-width: 768px) {
+
+  // main formulario
+  .main4 {
+    grid-area: main;
+  }
+
+  // seccion formulario
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 78rem;
+  }
+
+// }titulo
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem;
+    font-size: 2.25rem;
+  }
+
+  // subtitulo 
+  .registro h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  // estilo del formulario
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+  }
+  .formulario label {
+    font-size: 1.5rem;
+  }
+  
+  .formulario p {
+    font-size: 1.5rem;
+  }
+
+  // ingrese nombre
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s;
+  }
+
+  .nombre:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // ingrese apellido
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s;
+  }
+
+  .apellido:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem;
+  }
+
+
+// ingrese mail
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s;
+  }
+
+  .mail:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem;
+  }
+
+  // ingrese sexo
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .sexo:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // boton enviar
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+
+  .tilde {
+    cursor: pointer;
+  }
+
+
+  // boton restablecer 
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+}
+
+
+// responsive
+@media (max-width: 400px) {
+
+
+  // main formulario responsive
+  .main4 {
+    grid-area: main;
+  }
+
+  // seccion formulario
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 85rem;
+  }
+
+  // titulo
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem;
+    text-align: center;
+  }
+
+  // subtitulo
+  .registro h5 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  // estilo del formulario
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+  }
+
+
+  // ingrese nombre
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+  }
+
+  .nombre:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // ingrese apellido
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+  }
+
+  .apellido:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+  // ingrese mail
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+  }
+
+  .mail:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // ingrese sexo
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .sexo:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+  // boton enviar
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    // align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+
+  .tilde {
+    cursor: pointer;
+  }
+
+
+  // boton restabecer
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+}
+
+// formulario responsive para 320px
+@media (max-width: 320px) {
+
+
+  // main formulario responsive
+  .main4 {
+    grid-area: main;
+  }
+
+  // seccion formulario
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 85rem;
+  }
+
+// titulo
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem;
+    text-align: center;
+  }
+
+  // subtitulo
+  .registro h5 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  // edtilo del formulario
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+  }
+
+  // ingrese nombre 
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+  }
+
+  .nombre:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // ingrese apellido
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+  }
+
+  .apellido:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // ingrese mail
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+  }
+
+  .mail:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+  // ingrese sexo
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .sexo:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem;
+  }
+
+
+  // boton enviar
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    // align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+
+  .tilde {
+    cursor: pointer;
+  }
+
+
+  // boton restablecer
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816);
+  }
+}

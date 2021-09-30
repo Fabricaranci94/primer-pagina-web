@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LaCartaCine</title>
+    <title>Hbomax</title>
+    <meta
+      nombre=" cine "
+      content=" Aca vas a poder informarte de lo nuevo que se viene y buscar que mirar  "
+    />
+
+    <meta
+      name=" palabras clave "
+      content=" CINE, PELICULAS, SERIES, NETFLIX, PRIMEVIDEO, HBOMAX, DISNEY+, NOTICIAS "
+    />
+    <!-- link swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <!-- enlace css de bootstrap -->
     <link
       rel="stylesheet"
@@ -12,6 +26,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <!-- cuerpo del sitio -->
@@ -22,7 +37,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <!-- logo -->
-            <a class="navbar-brand" href="index.html">LaCartaCine<img src="https://img.icons8.com/cotton/48/000000/documentary.png"/></a>
+            <a class="navbar-brand" href="index.html"
+              >LaCartaCine<img
+                src="https://img.icons8.com/cotton/48/000000/documentary.png"
+            /></a>
             <!-- menu responsive -->
             <button
               class="navbar-toggler"
@@ -47,9 +65,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="novedades.html">Novedades</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="regristrarme.html">Registrate</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -66,19 +81,275 @@
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="top10peliculas.html">Top 10 peliculas</a>
-                  <a class="dropdown-item" href="top10series.html">Top 10 series</a>
-                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                  <a class="dropdown-item" href="disney.html">Disney</a>
+                  <a class="dropdown-item" href="hbomax.html">HboMax</a>
+                  <a class="dropdown-item" href="netflix.html">Netflix</a>
+                  <a class="dropdown-item" href="prime.html">PrimeVideo</a>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regristrarme.html">Registrate</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
 
-      
-      <main>
+      <!-- main hbo max -->
+      <main class="main5">
+        <!-- seccion hbo max -->
+        <section class="hbo">
+          <!-- titulo logo hbo -->
+          <div class="logohbo">
+            <img src="https://img.icons8.com/carbon-copy/250/000000/hbo.png" />
+          </div>
+          <!-- carrusel de imagenes por myswiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/Doom-Patron-S3_KA_27x40_rgb_v011.jpg"
+                  alt="doom"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/euphoria.jfif"
+                  alt="euphoria"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/friends-reunion-poster-fotogramas-1621445919.jpeg"
+                  alt="firends"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/gameoftrhone.jpg"
+                  alt="game of throne"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/liga de la justicia.jpg"
+                  alt="liga de la justicia"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-hbo" src="imagenes/mare.jpg" alt="mare" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/matrix.jpg"
+                  alt="matrix"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/rick and morty.jpg"
+                  alt="rick and morty"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-hbo"
+                  src="imagenes/sopranos.jpg"
+                  alt="sopranos"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
 
+        <!-- seccion top 6 -->
+        <section class="top6">
+          <!-- serie 1 -->
+          <h2>Chernobyl</h2>
+
+          <div class="descripcion">
+            <p>
+              Esta es otra joya de HBO, una mini serie que trae desde los 80 la
+              historia real de esa ciudad soviética, azotada por una emergencia
+              nuclear que mató a más de 30 personas, por nombrar sólo a los
+              fallecidos de forma directa, porque miles murieron posteriormente
+              a causa de la radiación. Una puesta en escena de lujo da el marco
+              perfecto para un terrible relato en que se muestra cómo las
+              autoridades de la Unión Soviética manejaron con impericia y
+              secretismo la situación, frente a un grupo de científicos que
+              trata de arreglar el entuerto e impedir que haya más muertos. La
+              serie se apega bastante a los hechos históricos y cuenta con
+              actuaciones brillantes, como las de Jared Harris, Stellan
+              Skarsgård y Emily Watson
+            </p>
+          </div>
+          <div class="hbomax">
+            <a href="https://www.youtube.com/watch?v=s9APLXM9Ei8"
+              ><img src="imagenes/CHERNOBYL-HBO-02.jpg" alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- serie 2 -->
+        <section class="top6">
+          <h2>THE FLIGHT ATTENDANT</h2>
+          <div class="descripcion">
+            <p>
+              A lo largo de 12 años, la estadounidense Kaley Cuoco encarnó a
+              Penny Hofstadter en la exitosa The Big Bang theory, por lo que
+              será difícil que este personaje deje de estar relacionado con
+              ella. Sin embargo, el siguiente paso de su carrera ha demostrado
+              que le queda mucho por revelar como actriz: el papel principal de
+              The flight attendant, la serie de comedia y suspenso inspirada en
+              la novela de Chris Bohjalian, de la que ella además es productora
+              ejecutiva a través de su compañía Yes, Norman Productions. Dicho
+              personaje es el de Cassie Bowden, una auxiliar de vuelo que gusta
+              de beber, incluso durante los viajes de su línea, Imperial
+              Atlantic, y además no tiene problema en acercarse un poco más de
+              lo debido a los pasajeros. Como en el caso de Alex Sokolov
+              (Michiel Huisman), a quien conoce en un viaje a Bangkok y decide
+              acompañarlo en una cena y luego a su lujoso hotel en dicha ciudad.
+              Pero después de una apasionada noche, Cassie despierta para darse
+              cuenta que en la cama que compartieron Alex yace muerto por un
+              gran corte en su cuello. Sin recordar nada y para evitar ser
+              arrestada, decide ordenar la habitación y dejarla lo más rápido
+              posible, tratando de continuar su vida con “normalidad”. Sin
+              embargo, será muy difícil que el problema abandone su cabeza,
+              menos cuando a cada momento se imagina hablando con Alex y el FBI
+              comienza a investigar el asesinato ocurrido en Tailandia.
+            </p>
+          </div>
+          <div class="hbomax">
+            <a href="https://www.youtube.com/watch?v=OP_WC5oOCe8"
+              ><img src="imagenes/the flight attendant.jpg" alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- serie 3 -->
+        <section class="top6">
+          <h2>RAISED BY WOLVES</h2>
+          <div class="descripcion">
+            <p>
+              El guionista estadounidense Aaron Guzikowski es el creador de esta
+              serie de ciencia ficción que tiene como parte de su equipo de
+              realización, en el doble rol de productor ejecutivo y director de
+              sus primeros capítulos a Ridley Scott, el famoso cineasta
+              británico responsable de títulos ya clásicos como Alien: el octavo
+              pasajero y Blade Runner. Su relato se divide en episodios donde la
+              fantasía se combina con el drama y temas como la religión, la
+              maternidad y el sentido de familia. Este se inicia cuando, en el
+              siglo XXII, a la Tierra la asola una guerra entre ateístas y
+              mitraicos, último grupo muy religioso y que adora a la divinidad
+              llamada Sol. Mismo periodo en que una pequeña nave con dos
+              androides, que se hacen llamar Madre (Amanda Collin) y Padre
+              (Abubakar Salim), escapan con una preciada carga hacia el planeta
+              Kepler 22-B. Esta última está compuesta por embriones humanos con
+              los que en su nuevo hogar la pareja creará una colonia humana. De
+              manera paralela también se conoce la historia de dos ateistas que,
+              para escapar de la Tierra, se apoderan del físico y las
+              identidades de Marcus (Travis Fimmel) y Sue (Niamh Algar) para ser
+              parte de una nave mitraica que también buscará la sobrevivencia en
+              Kepler 22-B, haciéndose cargo además del hijo de quienes
+              suplantaron: Paul (Felix Jamieson). Los distintos protagonistas
+              que pronto la narración unirá y confrontará, con Madre desplegando
+              su casi humana maternidad como también su lado más peligroso como
+              Nigromante o androide de guerra.
+            </p>
+          </div>
+          <div class="hbomax">
+            <a href="https://www.youtube.com/watch?v=rE92bDAlPXI"
+              ><img src="imagenes/poster-de-raised-bi-wolves-1.jpg" alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- seerie 4 -->
+        <section class="top6">
+          <h2>THE UNDOING</h2>
+          <div class="descripcion">
+            <p>
+              Nicole Kidman y Hugh Grant encabezan el elenco de esta miniserie
+              estadounidense basada en la novela You should have known, de Jean
+              Hanff Korelitz, donde un asesinato y una serie de mentiras
+              conforman el eje de un relato que tiene como principal componente
+              el suspenso. El cual se inicia centrado en el casi perfecto
+              matrimonio conformado por la terapeuta Grace Fraser (Kidman) y el
+              oncólogo infantil Jonathan Fraser (Hugh Grant), quienes viven en
+              un acomodado barrio de Manhattan junto a su único hijo, Henry
+              (Noah Jupe). Y cuando Grace es parte de un comité de apoderados
+              del curso de este último, en la exclusiva Escuela Reardon, es que
+              conoce a otra mamá llamada Elena Alves (Matilda De Angelis), que
+              tiene a su hijo mayor en el colegio gracias a una beca. La misma
+              que extrañamente también aparece en el gimnasio al que va la
+              terapeuta y, más tarde, luego de una fiesta escolar de caridad,
+              encuentran muerta en el taller que ella tenía como pintora y
+              escultora. Pero lo peor aún está por venir: cuando a Jonathan lo
+              acusan de su muerte. Esto luego de que se revela que el médico fue
+              amante de Elena, después de atender profesionalmente a su hijo, y
+              además, por esta misma relación, había perdido su trabajo en el
+              hospital. Choqueada y confundida, Grace busca apoyo en su mejor
+              amiga Sylvia (Lily Rabe) y su padre, Franklin Reinhardt (Donald
+              Sutherland), quien, a regañadientes y para ayudar a su hija y su
+              nieto, busca a la mejor abogada de Nueva York para defender a su
+              yerno.
+            </p>
+          </div>
+          <div class="hbomax">
+            <a href="https://www.youtube.com/watch?v=E0Y4vEvN_RI"
+              ><img src="imagenes/UNDOING.jpg" alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- serie 5 -->
+        <section class="top6">
+          <h2>THE WHITE LOTUS</h2>
+          <div class="descripcion">
+            <p>
+              La carrera de Mike White lo ha llevado entre la televisión y el
+              cine, desde su papel de actor al de guionista, pasando por el de
+              productor e incluso el de participante de realitys. Varios de los
+              cuales repite en The White Lotus, la serie creada, escrita,
+              producida y dirigida por él, donde mezcla la comedia con el drama
+              en medio de un paradisiaco resort hawaiano. Sin embargo, su inicio
+              es bastante más oscuro: cuando un hombre ve cómo al cadáver de su
+              esposa lo suben espacio de carga de un avión comercial. Desde ahí,
+              el relato viaja una semana antes, cuando un grupo de turistas se
+              dirige en una embarcación hacia las instalaciones The White Lotus.
+              Ellos son el matrimonio conformado por Mark y Nicole Mossbacher
+              (Steve Zahn y Connie Britton), y sus hijos adolescentes Quinn
+              (Fred Hechinger) y Olivia (Sydney Sweeney), junto la mejor amiga
+              de esta última, Paula (Brittany O’Grady). Además de los recién
+              casados Shane y Rachel Patton (Alexandra Daddario y Jake Lacy), y
+              la aproblemada Tanya McQuoid (Jennifer Coolidge). A quienes recibe
+              el gerente del resort, Armond (Murray Bartlett), y su equipo,
+              quienes entregan sus mejores sonrisas a los recién llegados. Pero
+              los dramas para los huéspedes y los encargados del hotel aparecen
+              muy pronto. Como el que Rachel empiece a dudar si estuvo bien
+              casarse, que Mark descubra un secreto de su desaparecido padre y
+              que Armond recaiga en su adicción a las drogas y el alcohol,
+              poniendo fin imprevistamente a cinco años de sobriedad. Una buena
+              noticia para sus seguidores: HBO acaba de anunciar que la serie se
+              renueva para un segunda temporada.
+            </p>
+          </div>
+          <div class="hbomax">
+            <a href="https://www.youtube.com/watch?v=TGLq7_MonZ4"
+              ><img src="imagenes/the-white-lotus-hbo-max.jpg" alt=""
+            /></a>
+          </div>
+        </section>
       </main>
 
       <!-- pie de pagina -->
@@ -89,20 +360,17 @@
           <!-- plataformas -->
           <ul>
             <li><a href="disney.html">Disney+</a></li>
-            <li><a href="#">Netflix</a></li>
-            <li><a href="#">HBOmax</a></li>
-            <li><a href="#">PrimeVideo</a></li>
+            <li><a href="netflix.html">Netflix</a></li>
+            <li><a href="hbomax.html">HBOmax</a></li>
+            <li><a href="prime.html">PrimeVideo</a></li>
           </ul>
-          <!-- top 10 y novedades -->
+          <!--novedades -->
           <ul>
-            <li><a href="#">Top10peliculas</a></li>
-            <li><a href="#">Top10series</a></li>
-            <li><a href="#">Novedades</a></li>
+            <li><a href="novedades.html">Novedades</a></li>
           </ul>
-          <!-- mejores trilogias y registrarse -->
+          <!--  registrarse -->
           <ul>
-            <li><a href="#">Mejores trilogias</a></li>
-            <li><a href="#">Registrarte</a></li>
+            <li><a href="regristrarme.html">Registrarte</a></li>
           </ul>
         </div>
         <!-- redes sociales -->
@@ -110,16 +378,42 @@
           <ul class="iconos1">
             <li class="redsocial">
               <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                ><img src="https://img.icons8.com/color/48/000000/facebook.png"
+              /></a>
             </li>
             <li class="redsocial">
               <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"/></a>
+                ><img
+                  src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
+              /></a>
             </li>
           </ul>
         </div>
       </footer>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
     <!-- enlaces javascript de bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LaCartaCine</title>
+    <title>Registro</title>
+    <meta
+     nombre = " cine "
+    content = " Aca vas a poder informarte de lo nuevo que se viene y buscar que mirar  ">
+
+    <meta 
+     name = " palabras clave "
+    content = " CINE, PELICULAS, SERIES, NETFLIX, PRIMEVIDEO, HBOMAX, DISNEY+, NOTICIAS ">
     <!-- enlace css de bootstrap -->
     <link
       rel="stylesheet"
@@ -12,17 +19,21 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <!-- cuerpo del sitio -->
   <body class="body">
     <div class="container1">
-      <!-- header -->
-      <header class="header1">
+       <!-- header -->
+       <header class="header1">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <!-- logo -->
-            <a class="navbar-brand" href="index.html">LaCartaCine<img src="https://img.icons8.com/cotton/48/000000/documentary.png"/></a>
+            <a class="navbar-brand" href="index.html"
+              >LaCartaCine<img
+                src="https://img.icons8.com/cotton/48/000000/documentary.png"
+            /></a>
             <!-- menu responsive -->
             <button
               class="navbar-toggler"
@@ -47,9 +58,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="novedades.html">Novedades</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="regristrarme.html">Registrate</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -60,65 +68,140 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Extras
-                </a>
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
+                Extras
+              </a>
+              <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="top10peliculas.html">Top 10 peliculas</a>
-                  <a class="dropdown-item" href="top10series.html">Top 10 series</a>
-                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                <a class="dropdown-item" href="disney.html"
+                >Disney</a
+                >
+                <a class="dropdown-item" href="hbomax.html"
+                >HboMax</a
+                  >
+                  <a class="dropdown-item" href="netflix.html"
+                  >Netflix</a
+                    >
+                    <a class="dropdown-item" href="prime.html"
+                    >PrimeVideo</a
+                      >
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regristrarme.html">Registrate</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
-
       
-      <main>
+    <!-- main formulario -->
+      <main class="main4">
+       <!-- seccion del registro -->
+        <section class="registro">
 
-      </main>
+          <h3>Registrate para estar bien actualizado y recibir todas las alertas</h3>
+          <h5>Ademas podes participar de nuestros sorteos</h5>
+          
+         <!-- formulario -->
+    <form class="formulario" action="">
+      <fieldset>
 
-      <!-- pie de pagina -->
-      <footer class="footer">
-        <div class="footer1">
-          <!-- logo del footer -->
-          <h2><a href="index.html">LA CARTA CINE</a></h2>
-          <!-- plataformas -->
-          <ul>
-            <li><a href="disney.html">Disney+</a></li>
-            <li><a href="#">Netflix</a></li>
-            <li><a href="#">HBOmax</a></li>
-            <li><a href="#">PrimeVideo</a></li>
-          </ul>
-          <!-- top 10 y novedades -->
-          <ul>
-            <li><a href="#">Top10peliculas</a></li>
-            <li><a href="#">Top10series</a></li>
-            <li><a href="#">Novedades</a></li>
-          </ul>
-          <!-- mejores trilogias y registrarse -->
-          <ul>
-            <li><a href="#">Mejores trilogias</a></li>
-            <li><a href="#">Registrarte</a></li>
-          </ul>
-        </div>
-        <!-- redes sociales -->
-        <div class="iconos">
-          <ul class="iconos1">
-            <li class="redsocial">
-              <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
-            </li>
-            <li class="redsocial">
-              <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"/></a>
-            </li>
-          </ul>
-        </div>
-      </footer>
+       <!-- nombre -->
+        <label for="nombre">Nombre</label>
+        <input class="nombre" type="texto" placeholder="ingrese su nombre" id="nombre" />
+        
+        <br />
+        <br />
+        <!-- apellido -->
+        <label for="apellido">Apellido</label>
+        <input class="apellido" type="text" placeholder="ingrese su apellido" id="apellido" />
+        
+        <br />
+        <br />
+        <!-- mail -->
+        <label for="mail">Mail</label>
+        <input class="mail" type="email" />
+        
+        <br />
+        <br />
+        <!-- selecion de sexo -->
+        <label for="sexo">Sexo</label>
+        
+        <select class="sexo" name="" id="">
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+        </select>
+        
+        <br />
+        <br />
+        <!-- opcion de info -->
+        <p>
+          Desea recibir informacion en su mail?
+          <input class="tilde" type="checkbox" />
+        </p>
+
+        
+        <br />
+        <br />
+        <!-- text area -->
+        <p>
+        Comentario:
+        </p>
+        
+        <textarea name="" id="" cols="50" rows="10"></textarea>
+        
+        <br />
+        <br />
+        <!-- botones de enviar y restablecer -->
+        <input class="enviar" type="submit" />
+        <input class="restablecer" type="reset" />
+      </form>
+    </fieldset>
+    
+
+</section>
+</main>
+
+ <!-- pie de pagina -->
+ <footer class="footer">
+  <div class="footer1">
+    <!-- logo del footer -->
+    <h2><a href="index.html">LA CARTA CINE</a></h2>
+    <!-- plataformas -->
+    <ul>
+      <li><a href="disney.html">Disney+</a></li>
+      <li><a href="netflix.html">Netflix</a></li>
+      <li><a href="hbomax.html">HBOmax</a></li>
+      <li><a href="prime.html">PrimeVideo</a></li>
+    </ul>
+    <!--  novedades -->
+    <ul>
+      <li><a href="novedades.html">Novedades</a></li>
+    </ul>
+    <!-- registrarse -->
+    <ul>
+      <li><a href="regristrarme.html">Registrarte</a></li>
+    </ul>
+  </div>
+  <!-- redes sociales -->
+  <div class="iconos">
+    <ul class="iconos1">
+      <li class="redsocial">
+        <a href="#"
+          ><img src="https://img.icons8.com/color/48/000000/facebook.png"
+        /></a>
+      </li>
+      <li class="redsocial">
+        <a href="#"
+          ><img
+            src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
+        /></a>
+      </li>
+    </ul>
+  </div>
+</footer>
     </div>
     <!-- enlaces javascript de bootstrap -->
     <script

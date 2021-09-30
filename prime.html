@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LaCartaCine</title>
+    <title>PrimeVideo</title>
+    <meta
+      nombre=" cine "
+      content=" Aca vas a poder informarte de lo nuevo que se viene y buscar que mirar  "
+    />
+
+    <meta
+      name=" palabras clave "
+      content=" CINE, PELICULAS, SERIES, NETFLIX, PRIMEVIDEO, HBOMAX, DISNEY+, NOTICIAS "
+    />
+    <!-- link swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <!-- enlace css de bootstrap -->
     <link
       rel="stylesheet"
@@ -12,6 +26,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <!-- cuerpo del sitio -->
@@ -22,7 +37,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <!-- logo -->
-            <a class="navbar-brand" href="index.html">LaCartaCine<img src="https://img.icons8.com/cotton/48/000000/documentary.png"/></a>
+            <a class="navbar-brand" href="index.html"
+              >LaCartaCine<img
+                src="https://img.icons8.com/cotton/48/000000/documentary.png"
+            /></a>
             <!-- menu responsive -->
             <button
               class="navbar-toggler"
@@ -47,9 +65,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="novedades.html">Novedades</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="regristrarme.html">Registrate</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -66,19 +81,207 @@
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="top10peliculas.html">Top 10 peliculas</a>
-                  <a class="dropdown-item" href="top10series.html">Top 10 series</a>
-                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                  <a class="dropdown-item" href="disney.html">Disney</a>
+                  <a class="dropdown-item" href="hbomax.html">HboMax</a>
+                  <a class="dropdown-item" href="netflix.html">Netflix</a>
+                  <a class="dropdown-item" href="prime.html">PrimeVideo</a>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regristrarme.html">Registrate</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
 
-      
-      <main>
+      <!-- main pagina prime video -->
+      <main class="main4">
+        <!-- seccion prime  -->
+        <section class="prime">
+          <!-- titulo logo prime -->
+          <div class="logoprime">
+            <img
+              src="https://img.icons8.com/ios-filled/250/000000/amazon-prime-video.png"
+            />
+          </div>
 
+          <!-- carrusel de imagenes por swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/american gods.jpg"
+                  alt="american gods"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/carnival.jpg"
+                  alt="carnival"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/gooddoctor.jpg"
+                  alt="gooddoctor"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/jackryan.jpg"
+                  alt="jackryan"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/seamen.jpg"
+                  alt="seaman"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/the office.jpg"
+                  alt="the office"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/theman in the.png"
+                  alt="the man"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/the-boys.jpg.crdownload"
+                  alt="the boys"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-prime"
+                  src="imagenes/themarvelous.jpg"
+                  alt="marvelous"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <!-- seccion top5 -->
+        <section class="top5">
+          <h2>MODERN LOVE</h2>
+          <!-- serie 1 -->
+          <div class="descripcion">
+            <p>
+              Modern Love es una comedia romántica de episodios antológicos que
+              giran en torno al amor y las relaciones humanas. La ficción indaga
+              así en el amor en diversas formas: sexuales, románticas,
+              familiares, platónicas y el amor por uno mismo. ... Todas ellas
+              con un factor común: las alegrías y las penas que rodean al amor.
+            </p>
+          </div>
+          <div class="pv">
+            <a href="https://www.youtube.com/watch?v=650Mt63HIBU"
+              ><img
+                src="imagenes/Modern-Love-Temporada-1-Completa-HD-720p-Latino-Dual.jpeg"
+                alt=""
+            /></a>
+          </div>
+        </section>
+        <!-- serie 2 -->
+        <section class="top1">
+          <h2>CRUEL SUMMER</h2>
+          <div class="descripcion">
+            <p>
+              "Cruel Summer es una serie poco convencional que se lleva a cabo a
+              lo largo de tres veranos en la década de los 90, cuando una
+              adolescente hermosa y popular se encuentra desaparecida y una
+              chica aparentemente sin relación a ella, se transforma de una
+              dulce y alejada niña en la chica más popular de la ciudad,
+              eventualmente convirtiéndose en la persona más odiada de Estados
+              Unidos". Lo original de esta serie es que cada episodio está
+              narrado desde puntos de vista alternos.
+            </p>
+          </div>
+          <div class="pv">
+            <a href="https://www.youtube.com/watch?v=naW641sOp_4"
+              ><img src="imagenes/cruel summer.jpg" alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- serie 3 -->
+        <section class="top1">
+          <h2>LA QUE SE AVECINA</h2>
+          <div class="descripcion">
+            <p>
+              La serie narra aventuras y problemas cotidianos de una peculiar
+              comunidad de vecinos de «alto standing» de la urbanización Mirador
+              de Montepinar cuyo edificio está ubicado a las afueras de Madrid.
+              Abordan problemas de la vivienda en España en una urbanización que
+              anuncia unos servicios que en realidad no tiene.
+            </p>
+          </div>
+          <div class="pv">
+            <a href="https://www.youtube.com/watch?v=qtmFihaZ1jk"
+              ><img
+                src="imagenes/La_que_se_avecina_Serie_de_TV-556812179-large.jpg"
+                alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- serie 4 -->
+        <section class="top1">
+          <h2>BOSS LEVEL</h2>
+          <div class="descripcion">
+            <p>
+              Roy es un antiguo miembro de las fuerzas especiales de Estados
+              Unidos, ahora retirado. Aunque este espera disfrutar de una vida
+              tranquila, la tarea no será tan sencilla. Roy comienza a vivir,
+              una y otra vez, el día de su muerte, y deberá averiguar quién es
+              el responsable definitivo para evitar que el momento de su
+              fallecimiento resulte eterno.
+            </p>
+          </div>
+          <div class="pv">
+            <a href="https://www.youtube.com/watch?v=PGHD0bqjZWQ"
+              ><img
+                src="imagenes/BOSS_LEVEL_ENGLISH_Listing_Page94.jpg.crdownload"
+                alt=""
+            /></a>
+          </div>
+        </section>
+
+        <!-- serie 5 -->
+        <section class="top1">
+          <h2>EL COVER</h2>
+          <div class="descripcion">
+            <p>
+              Dani es un joven que ama la música, pero tiene miedo a fracasar
+              como su padre, así que decide no intentarlo. Ese verano, entre su
+              trabajo de camarero y las noches con los amigos, conocerá a
+              Sandra, quien cambiará su forma de entender el arte.
+            </p>
+          </div>
+          <div class="pv">
+            <a href="https://www.youtube.com/watch?v=QSvQnerIC94"
+              ><img src="imagenes/cover.jpg" alt=""
+            /></a>
+          </div>
+        </section>
       </main>
 
       <!-- pie de pagina -->
@@ -89,20 +292,17 @@
           <!-- plataformas -->
           <ul>
             <li><a href="disney.html">Disney+</a></li>
-            <li><a href="#">Netflix</a></li>
-            <li><a href="#">HBOmax</a></li>
-            <li><a href="#">PrimeVideo</a></li>
+            <li><a href="netflix.html">Netflix</a></li>
+            <li><a href="hbomax.html">HBOmax</a></li>
+            <li><a href="prime.html">PrimeVideo</a></li>
           </ul>
-          <!-- top 10 y novedades -->
+          <!--  novedades -->
           <ul>
-            <li><a href="#">Top10peliculas</a></li>
-            <li><a href="#">Top10series</a></li>
-            <li><a href="#">Novedades</a></li>
+            <li><a href="novedades.html">Novedades</a></li>
           </ul>
-          <!-- mejores trilogias y registrarse -->
+          <!--  registrarse -->
           <ul>
-            <li><a href="#">Mejores trilogias</a></li>
-            <li><a href="#">Registrarte</a></li>
+            <li><a href="regristrarme.html">Registrarte</a></li>
           </ul>
         </div>
         <!-- redes sociales -->
@@ -110,16 +310,42 @@
           <ul class="iconos1">
             <li class="redsocial">
               <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                ><img src="https://img.icons8.com/color/48/000000/facebook.png"
+              /></a>
             </li>
             <li class="redsocial">
               <a href="#"
-                ><img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"/></a>
+                ><img
+                  src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
+              /></a>
             </li>
           </ul>
         </div>
       </footer>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
     <!-- enlaces javascript de bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

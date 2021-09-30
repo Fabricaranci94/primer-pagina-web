@@ -8,6 +8,1014 @@
   font-style: oblique;
   font-weight: bolder; }
 
+.main4 {
+  grid-area: main; }
+
+.registro {
+  background-color: rgba(49, 109, 111, 0.741);
+  height: 85rem; }
+
+.registro h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.25rem; }
+
+.registro h5 {
+  display: flex;
+  justify-content: center; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem; }
+
+.formulario label {
+  font-size: 1.5rem; }
+
+.formulario p {
+  font-size: 1.5rem; }
+
+.nombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s; }
+
+.nombre:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem; }
+
+.apellido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s; }
+
+.apellido:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem; }
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s; }
+
+.mail:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem; }
+
+.sexo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 2.5rem;
+  transition: 2s;
+  cursor: pointer; }
+
+.sexo:focus {
+  width: 30rem;
+  height: 3rem;
+  font-size: 0.9375rem; }
+
+.enviar {
+  display: inline-block;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s; }
+
+.enviar:hover {
+  background-color: rgba(25, 56, 179, 0.816); }
+
+.tilde {
+  cursor: pointer; }
+
+.restablecer {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s; }
+
+.restablecer:hover {
+  background-color: rgba(25, 56, 179, 0.816); }
+
+@media (max-width: 1200px) {
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 70rem; }
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem; }
+  .registro h5 {
+    display: flex;
+    justify-content: center; }
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem; }
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s; }
+  .nombre:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem; }
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s; }
+  .apellido:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem; }
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s; }
+  .mail:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem; }
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 0.9375rem;
+    transition: 2s;
+    cursor: pointer; }
+  .sexo:focus {
+    width: 15.625rem;
+    height: 1.25rem;
+    font-size: 0.9375rem; }
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s; }
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816); }
+  .tilde {
+    cursor: pointer; }
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s; }
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816); } }
+
+@media (max-width: 768px) {
+  .main4 {
+    grid-area: main; }
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 78rem; }
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem;
+    font-size: 2.25rem; }
+  .registro h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem; }
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem; }
+  .formulario label {
+    font-size: 1.5rem; }
+  .formulario p {
+    font-size: 1.5rem; }
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s; }
+  .nombre:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem; }
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s; }
+  .apellido:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem; }
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s; }
+  .mail:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem; }
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 2.3rem;
+    transition: 2s;
+    cursor: pointer; }
+  .sexo:focus {
+    width: 24rem;
+    height: 2.9rem;
+    font-size: 0.9375rem; }
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s; }
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816); }
+  .tilde {
+    cursor: pointer; }
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s; }
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816); } }
+
+@media (max-width: 400px) {
+  .main4 {
+    grid-area: main; }
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 85rem; }
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem;
+    text-align: center; }
+  .registro h5 {
+    display: flex;
+    justify-content: center; }
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem; }
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s; }
+  .nombre:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s; }
+  .apellido:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s; }
+  .mail:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+    cursor: pointer; }
+  .sexo:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s; }
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816); }
+  .tilde {
+    cursor: pointer; }
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s; }
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816); } }
+
+@media (max-width: 320px) {
+  .main4 {
+    grid-area: main; }
+  .registro {
+    background-color: rgba(49, 109, 111, 0.741);
+    height: 85rem; }
+  .registro h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.25rem;
+    text-align: center; }
+  .registro h5 {
+    display: flex;
+    justify-content: center; }
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem; }
+  .nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s; }
+  .nombre:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s; }
+  .apellido:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s; }
+  .mail:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 1.9375rem;
+    transition: 2s;
+    cursor: pointer; }
+  .sexo:focus {
+    width: 15.9rem;
+    height: 2.1rem;
+    font-size: 0.9375rem; }
+  .enviar {
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s; }
+  .enviar:hover {
+    background-color: rgba(25, 56, 179, 0.816); }
+  .tilde {
+    cursor: pointer; }
+  .restablecer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s; }
+  .restablecer:hover {
+    background-color: rgba(25, 56, 179, 0.816); } }
+
+.main3 {
+  grid-area: main;
+  margin-top: 0.3125rem; }
+
+.netflix {
+  height: 70.25rem;
+  background-color: #e50914; }
+
+.logonetflix {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.875rem; }
+
+.swiper {
+  width: 100%;
+  height: 40rem;
+  padding-top: 1.25rem; }
+
+.main3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #e50914;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-slide .swiper-netflix {
+  display: block;
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem; }
+
+.top1 {
+  background-color: #110f0f;
+  height: 50rem; }
+
+.top1 h2 {
+  display: flex;
+  justify-content: center;
+  color: #e50914;
+  padding-top: 2rem; }
+
+.descripcion p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #eee; }
+
+.juegocalamar {
+  display: flex;
+  justify-content: center; }
+
+.juegocalamar img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40.25rem;
+  border-radius: 1rem; }
+
+@media (max-width: 400px) {
+  .main3 {
+    grid-area: main;
+    margin-top: 0.3125rem; }
+  .netflix {
+    height: 70.25rem;
+    background-color: #e50914; }
+  .logonetflix {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem; }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem; }
+  .main3 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #e50914;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .swiper-slide .swiper-netflix {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem; }
+  .top1 {
+    background-color: #110f0f;
+    height: 60rem; }
+  .top1 h2 {
+    display: flex;
+    justify-content: center;
+    color: #e50914;
+    padding-top: 2rem; }
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee; }
+  .juegocalamar {
+    display: flex;
+    justify-content: center; }
+  .juegocalamar img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40.25rem;
+    border-radius: 1rem; } }
+
+@media (max-width: 1300px) {
+  .main3 {
+    grid-area: main;
+    margin-top: 0.3125rem; }
+  .netflix {
+    height: 75.25rem;
+    background-color: #e50914; }
+  .logonetflix {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem; }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem; }
+  .main3 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #e50914;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .swiper-slide .swiper-netflix {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem; }
+  .top1 {
+    background-color: #110f0f;
+    height: 60rem; }
+  .top1 h2 {
+    display: flex;
+    justify-content: center;
+    color: #e50914;
+    padding-top: 2rem; }
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee; }
+  .juegocalamar {
+    display: flex;
+    justify-content: center; }
+  .juegocalamar img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40.25rem;
+    border-radius: 1rem; } }
+
+.main4 {
+  grid-area: main;
+  margin-top: 0.3125rem; }
+
+.prime {
+  height: 70.25rem;
+  background-color: #00ABE1; }
+
+.logoprime {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.875rem; }
+
+.swiper {
+  width: 100%;
+  height: 40rem;
+  padding-top: 1.25rem; }
+
+.main4 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #00ABE1;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-slide .swiper-prime {
+  display: block;
+  width: 85%;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 0.5rem; }
+
+.top5 {
+  background-color: #110f0f;
+  height: 60rem; }
+
+.top5 h2 {
+  display: flex;
+  justify-content: center;
+  color: #00ABE1;
+  padding-top: 2rem; }
+
+.descripcion p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #eee; }
+
+.pv {
+  display: flex;
+  justify-content: center; }
+
+.pv img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40.25rem;
+  border-radius: 1rem; }
+
+@media (max-width: 400px) {
+  .main4 {
+    grid-area: main;
+    margin-top: 0.3125rem; }
+  .prime {
+    height: 70.25rem;
+    background-color: #00ABE1; }
+  .logoprime {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem; }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem; }
+  .main4 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #00ABE1;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .swiper-slide .swiper-prime {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem; }
+  .top5 {
+    background-color: #110f0f;
+    height: 60rem; }
+  .top5 h2 {
+    display: flex;
+    justify-content: center;
+    color: #00ABE1;
+    padding-top: 2rem; }
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee; }
+  .pv {
+    display: flex;
+    justify-content: center; }
+  .pv img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40.25rem;
+    border-radius: 1rem; } }
+
+@media (max-width: 1300px) {
+  .main4 {
+    grid-area: main;
+    margin-top: 0.3125rem; }
+  .prime {
+    height: 75.25rem;
+    background-color: #00ABE1; }
+  .logoprime {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem; }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem; }
+  .main4 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #00ABE1;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .swiper-slide .swiper-prime {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem; }
+  .top5 {
+    background-color: #110f0f;
+    height: 60rem; }
+  .top5 h2 {
+    display: flex;
+    justify-content: center;
+    color: #00ABE1;
+    padding-top: 2rem; }
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee; }
+  .pv {
+    display: flex;
+    justify-content: center; }
+  .pv img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40.25rem;
+    border-radius: 1rem; } }
+
+.main5 {
+  grid-area: main;
+  margin-top: 0.3125rem; }
+
+.hbo {
+  height: 70.25rem;
+  background-color: #b535f6; }
+
+.logohbo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.875rem; }
+
+.swiper {
+  width: 90%;
+  height: 40rem;
+  padding-top: 1.25rem; }
+
+.main5 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #b535f6;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-slide .swiper-hbo {
+  display: block;
+  width: 85%;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 0.5rem; }
+
+.top6 {
+  background-color: #110f0f;
+  height: 75rem; }
+
+.top6 h2 {
+  display: flex;
+  justify-content: center;
+  color: #b535f6;
+  padding-top: 2rem; }
+
+.descripcion p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #eee; }
+
+.hbomax {
+  display: flex;
+  justify-content: center; }
+
+.hbomax img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40.25rem;
+  border-radius: 1rem; }
+
+@media (max-width: 400px) {
+  .main5 {
+    grid-area: main;
+    margin-top: 0.3125rem; }
+  .hbo {
+    height: 70.25rem;
+    background-color: #b535f6; }
+  .logohbo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem; }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem; }
+  .main5 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #b535f6;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .swiper-slide .swiper-hbo {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem; }
+  .top6 {
+    background-color: #110f0f;
+    height: 80rem; }
+  .top6 h2 {
+    display: flex;
+    justify-content: center;
+    color: #b535f6;
+    padding-top: 2rem; }
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee; }
+  .hbomax {
+    display: flex;
+    justify-content: center; }
+  .hbomax img {
+    width: 44rem;
+    height: 33.25rem;
+    border-radius: 1rem; } }
+
+@media (max-width: 1300px) {
+  .main5 {
+    grid-area: main;
+    margin-top: 0.3125rem; }
+  .hbo {
+    height: 75.25rem;
+    background-color: #b535f6; }
+  .logohbo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.875rem; }
+  .swiper {
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.25rem; }
+  .main5 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #b535f6;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .swiper-slide .swiper-hbo {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem; }
+  .top6 {
+    background-color: #110f0f;
+    height: 90rem; }
+  .top6 h2 {
+    display: flex;
+    justify-content: center;
+    color: #b535f6;
+    padding-top: 2rem; }
+  .descripcion p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eee; }
+  .hbomax {
+    display: flex;
+    justify-content: center; }
+  .hbomax img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 44.25rem;
+    border-radius: 0.9375rem;
+    padding: 5rem; } }
+
 .header1 {
   grid-area: header; }
 
@@ -36,6 +1044,10 @@
   width: 100%;
   height: 28.125rem;
   border-radius: 0.625rem; }
+
+.estrenos h2 {
+  display: flex;
+  justify-content: center; }
 
 .estrenos {
   margin-top: 2.25rem; }
@@ -152,9 +1164,49 @@
   margin-top: 1rem;
   border-radius: 0.5rem; }
 
+.starwras {
+  height: 90.375rem; }
+
+.logo-star {
+  display: flex;
+  justify-content: center; }
+
+.substar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; }
+
+.orden-peliculas {
+  display: flex;
+  justify-content: center; }
+
+.orden-peliculas img {
+  width: 90%;
+  height: 35.75rem;
+  border-radius: 0.5rem; }
+
+.sinopsis {
+  margin: 8.125rem; }
+
+.titular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.875rem; }
+
+.sinopsis p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2.1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: bolder; }
+
 .footer {
   grid-area: footer;
-  height: 2.5rem; }
+  height: 12rem; }
 
 .footer .footer1 {
   display: flex;
@@ -176,7 +1228,8 @@
   gap: 0.625rem;
   grid-template-rows: 1fr, 1fr, 1fr;
   grid-template-columns: 100%;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header" "main" "footer";
+  overflow: hidden; }
 
 .body {
   background-color: #eee;
@@ -184,7 +1237,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
   * {
     font-size: 8px; }
   .container1 {
@@ -199,7 +1252,7 @@
     justify-content: center;
     margin-top: 3rem; }
   .carousel {
-    width: 9.25rem; }
+    width: 85.25rem; }
   .carousel-item img {
     width: 100%;
     height: 28.125rem;
@@ -274,7 +1327,43 @@
     width: 23rem;
     height: 31rem;
     margin-top: 1rem;
-    border-radius: 0.5rem; } }
+    border-radius: 0.5rem; }
+  .starwras {
+    height: 90.375rem; }
+  .logo-star {
+    display: flex;
+    justify-content: center; }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; }
+  .substar h2 {
+    font-size: 4.875rem; }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center; }
+  .orden-peliculas img {
+    width: 95%;
+    height: 45.75rem;
+    border-radius: 0.5rem; }
+  .sinopsis {
+    margin: 8.125rem; }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem; }
+  .titular h3 {
+    font-size: 4rem; }
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 4.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.2rem;
+    font-weight: bolder; } }
 
 @media (max-width: 768px) {
   * {
@@ -366,9 +1455,41 @@
     width: 20rem;
     height: 32rem;
     margin-top: 1rem;
-    border-radius: 0.5rem; } }
+    border-radius: 0.5rem; }
+  .starwras {
+    height: 90.375rem; }
+  .logo-star {
+    display: flex;
+    justify-content: center; }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center; }
+  .orden-peliculas img {
+    width: 100%;
+    height: 38.75rem;
+    border-radius: 0.5rem; }
+  .sinopsis {
+    margin: 8.125rem; }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem; }
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.2rem;
+    font-weight: bolder; } }
 
-@media (max-width: 375px) {
+@media (max-width: 650px) {
   * {
     font-size: 8px; }
   .container1 {
@@ -461,7 +1582,39 @@
     width: 20rem;
     height: 28rem;
     margin-top: 1rem;
-    border-radius: 0.5rem; } }
+    border-radius: 0.5rem; }
+  .starwras {
+    height: 90.375rem; }
+  .logo-star {
+    display: flex;
+    justify-content: center; }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center; }
+  .orden-peliculas img {
+    width: 100%;
+    height: 25.75rem;
+    border-radius: 0.5rem; }
+  .sinopsis {
+    margin: 3.125rem; }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem; }
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.9rem;
+    font-weight: bolder; } }
 
 @media (max-width: 320px) {
   * {
@@ -556,4 +1709,36 @@
     width: 14rem;
     height: 22rem;
     margin-top: 1rem;
-    border-radius: 0.5rem; } }
+    border-radius: 0.5rem; }
+  .starwras {
+    height: 90.375rem; }
+  .logo-star {
+    display: flex;
+    justify-content: center; }
+  .substar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; }
+  .orden-peliculas {
+    display: flex;
+    justify-content: center; }
+  .orden-peliculas img {
+    width: 100%;
+    height: 25.75rem;
+    border-radius: 0.5rem; }
+  .sinopsis {
+    margin: 3.125rem; }
+  .titular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.875rem; }
+  .sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.9rem;
+    font-weight: bolder; } }
